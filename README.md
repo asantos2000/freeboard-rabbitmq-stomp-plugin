@@ -4,6 +4,8 @@ RabbitMQ Stomp plugins for freeboard.io
 
 # Install
 
+Install [Freeboard] (https://github.com/Freeboard/freeboard).
+
 Install [RabbitMQ] (https://www.rabbitmq.com/download.html), enable plugins below and run it.
 
 ```
