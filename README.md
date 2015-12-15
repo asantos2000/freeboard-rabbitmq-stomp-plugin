@@ -4,9 +4,9 @@ RabbitMQ Stomp plugins for freeboard.io
 
 # Install
 
-Install [Freeboard] (https://github.com/Freeboard/freeboard).
+Install [Freeboard] (https://github.com/Freeboard/freeboard);
 
-Install [RabbitMQ] (https://www.rabbitmq.com/download.html), enable plugins below and run it.
+Install [RabbitMQ] (https://www.rabbitmq.com/download.html), enable plugins below and run it;
 
 ```
 host:sbin$ ./rabbitmq-plugins list
@@ -38,9 +38,9 @@ host:sbin$ ./rabbitmq-plugins list
 [e*] webmachine                        1.10.3-rmq3.5.6-gite9359c
 ```
 
-Copy all files to **freeboard_install_path/plugins/thirdparty**
+Copy all **freeboard-rabbitmq-stomp-plugin** files from this repository to your **freeboard_install_path/plugins/thirdparty** directory;
 
-Change **freeboard_install_path/index.html**, adding **plugins/thirdparty/rabbitmq.stomp.plugin.js**
+Change **freeboard_install_path/index.html**, adding **plugins/thirdparty/rabbitmq.stomp.plugin.js**;
 
 ```javascript
     <script type="text/javascript">
